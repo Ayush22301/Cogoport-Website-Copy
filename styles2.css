@@ -1,0 +1,184 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+h3 {
+    font-size: 28px;
+    line-height: 1.2;
+    font-family: 'Ubuntu';
+}
+
+h4{
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'Ubuntu';
+    color: #ee3425;
+    margin-bottom: 0.25rem;
+}
+
+.vidouter{
+    padding-top: 2rem;
+    position: relative;
+    height: 450px;
+}
+.vid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 17px;
+    right: 370px;
+}
+.vid-btn{
+    position: absolute;
+    top: 202px;
+    right: 729px;
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+
+.homepage-vid{
+    width: 100%;
+    height: 450px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+
+.txtVid{
+    background-color: #ee3425;
+    color: white;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Ubuntu';
+}
+
+.maintxt>*{
+    margin-bottom: 1rem;
+
+}
+
+.txtVidbtn {
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px;
+    font-family: 'Ubuntu';
+    color: #030003;
+    font-size: 16px;
+    background: #fbdc00;
+    padding: 5px 16px 5px 16px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+#blog-cards{
+    padding: 4rem 10rem;
+}
+
+.card{
+    cursor: pointer;
+    width: 500px;
+}
+
+.pricing-h3{
+    text-align: center;
+    font-weight: 800;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+.cimg{
+    width: 100%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-abt{
+    padding: 1rem 1rem 0.25rem;
+}
+.card-head{
+    padding: 0.25rem 1rem 0.5rem;
+}
+.card-head > h4{
+    color: black;
+    font-size: 18px;
+    margin-bottom: 0.75rem;
+    font-weight: bold;
+}
+
+.card-p{
+    font-family: 'Ubuntu';
+    padding: 0.15rem 1rem 1rem;
+}
+
+.card-foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.date > h4{
+    color: gray;
+}
+
+.viewall{
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+.vallbtn {
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 4px;
+    font-family: 'Ubuntu';
+    color: white;
+    font-size: 16px;
+    background: #ee3425;
+    padding: 5px 16px 5px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: none;
+  }
+
+
+  .maintxt h3{
+    font-weight: bolder;
+    color: white;
+    margin-top: 50px;
+    font-size: 40px;
+  }
+
+  .maintxt h4{
+    font-weight: bolder;
+    color: white;
+    font-size: 32px;
+  }
+
+  .txtVidbtn{
+    font-weight: bold;
+    width: 150px;
+  }
+
+
+  .pricing-h3{
+    font-size: 40px;
+  }
+
+  .card-content .card-abt h4{
+    color: #ee3425;
+    font-size: 24px;
+  }
+
+
+  .vallbtn{
+    width: 150px;
+    font-weight: bold;
+  }
